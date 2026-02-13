@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NLC Cyber — Start Here</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;margin:0;background:#0b1220;color:#e5e7eb}
+    .wrap{max-width:1040px;margin:0 auto;padding:28px 16px}
+    a{color:#93c5fd;text-decoration:none}
+    a:hover{text-decoration:underline}
+    .muted{color:#94a3b8;font-size:.95rem;line-height:1.4}
+    h1{font-size:1.7rem;margin:0 0 6px 0}
+    h2{font-size:1.05rem;margin:0 0 8px 0}
+    p{margin:8px 0;color:#cbd5e1;line-height:1.45}
+    .topbar{display:flex;gap:10px;align-items:baseline;justify-content:space-between;flex-wrap:wrap}
+    .pill{display:inline-block;font-size:.8rem;padding:3px 10px;border-radius:999px;border:1px solid rgba(148,163,184,.35);background:rgba(34,197,94,.10);color:#bbf7d0}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
+    @media (max-width:900px){.grid{grid-template-columns:1fr}}
+    .card{background:#111827;border:1px solid rgba(148,163,184,.25);border-radius:14px;padding:16px}
+    .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+    .btn{display:inline-block;padding:9px 12px;border-radius:12px;border:1px solid rgba(148,163,184,.25);background:rgba(15,23,42,.8);color:#e5e7eb}
+    .btn.primary{background:rgba(34,197,94,.15);border-color:rgba(34,197,94,.35)}
+    ul{margin:10px 0 0 18px}
+    li{margin:7px 0;color:#cbd5e1}
+    .hr{height:1px;background:rgba(148,163,184,.2);margin:16px 0}
+    .small{font-size:.9rem}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div>
+        <span class="pill">NLC Cyber</span>
+        <h1>Northeast Lakeview College — Cyber</h1>
+        <div class="muted">Public resources for students, prospective students, and community partners.</div>
+      </div>
+      <div class="cta">
+        <a class="btn" href="https://github.com/cthornsburg/nlc_cyber">GitHub repo</a>
+      </div>
+    </div>
+
+    <div class="hr"></div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>Current Students — Start Here</h2>
+        <p class="muted">Labs, study resources, and contribution guidelines (no sensitive data).</p>
+        <ul class="small">
+          <li>Labs: hands-on practice</li>
+          <li>Resources: study paths + tools</li>
+          <li>How to contribute safely</li>
+        </ul>
+        <div class="cta">
+          <a class="btn primary" href="./students/index.html">Open student page</a>
+          <a class="btn" href="https://github.com/cthornsburg/nlc_cyber/tree/master/labs">Labs folder</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>NighHax (CTF Club)</h2>
+        <p class="muted">Getting started guide + practice resources + rules for writeups.</p>
+        <ul class="small">
+          <li>Pick 1–2 tracks (web/forensics/rev/crypto/blue team)</li>
+          <li>Practice links to build reps</li>
+          <li>Writeups: educational, reproducible, no flags/secrets</li>
+        </ul>
+        <div class="cta">
+          <a class="btn primary" href="./ctf/index.html">Open CTF page</a>
+          <a class="btn" href="https://github.com/cthornsburg/nlc_cyber/tree/master/ctf">CTF folder</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Prospective Students</h2>
+        <p class="muted">What we do, what to expect, and how to prepare.</p>
+        <ul class="small">
+          <li>Mission + program direction</li>
+          <li>Sample labs and skills</li>
+          <li>How to get involved early</li>
+        </ul>
+        <div class="cta">
+          <a class="btn primary" href="./prospective/index.html">Open page</a>
+          <a class="btn" href="https://github.com/cthornsburg/nlc_cyber/blob/master/program/mission.md">Program mission</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Community Partners / Employers</h2>
+        <p class="muted">How to support the program and connect with students.</p>
+        <ul class="small">
+          <li>Guest lectures / mentorship</li>
+          <li>Project ideas + feedback</li>
+          <li>Internships and hiring pipeline</li>
+        </ul>
+        <div class="cta">
+          <a class="btn primary" href="./partners/index.html">Open partners page</a>
+          <a class="btn" href="https://github.com/cthornsburg/nlc_cyber/blob/master/CONTRIBUTING.md">Contributing</a>
+        </div>
+      </div>
+    </div>
+
+    <p class="muted" style="margin-top:18px;">Note: This repo is intentionally public. Do not upload sensitive information, student records, or any restricted content.</p>
+  </div>
+</body>
+</html>

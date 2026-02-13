@@ -8,6 +8,9 @@ This repo is meant to be a practical hub for:
 - **Community partners** (how to support, what we’re building)
 
 ## Start here
+
+- **Hosted landing page (GitHub Pages):** https://cthornsburg.github.io/nlc_cyber/
+
 - Program mission: `program/mission.md`
 - Student resources: `resources/`
 - Labs (hands-on): `labs/`
