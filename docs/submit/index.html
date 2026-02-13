@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NLC Cyber — How to Submit (CTF Writeups + Lab Requests)</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;margin:0;background:#0b1220;color:#e5e7eb}
+    .wrap{max-width:980px;margin:0 auto;padding:28px 16px}
+    a{color:#93c5fd}
+    .card{background:#111827;border:1px solid rgba(148,163,184,.25);border-radius:14px;padding:16px;margin-top:14px}
+    h1{font-size:1.6rem;margin:0 0 6px 0}
+    h2{font-size:1.15rem;margin:14px 0 6px 0}
+    h3{font-size:1.0rem;margin:12px 0 6px 0;color:#e2e8f0}
+    p{margin:8px 0;color:#cbd5e1;line-height:1.45}
+    .muted{color:#94a3b8;font-size:.95rem}
+    ul,ol{margin:8px 0 0 18px}
+    li{margin:7px 0}
+    .btn{display:inline-block;padding:8px 12px;border-radius:12px;border:1px solid rgba(148,163,184,.25);background:rgba(15,23,42,.8);color:#e5e7eb;text-decoration:none}
+    pre{white-space:pre-wrap;background:#0f172a;border:1px solid rgba(148,163,184,.2);border-radius:12px;padding:12px;color:#e5e7eb;overflow:auto}
+    code{background:rgba(148,163,184,.15);padding:2px 6px;border-radius:6px}
+    .callout{border-left:4px solid rgba(34,197,94,.7);padding:10px 12px;background:rgba(34,197,94,.08);border-radius:10px;color:#dcfce7}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+  <nav style="display:flex; gap:10px; flex-wrap:wrap; margin:6px 0 14px 0;">
+    <a class="btn" href="../index.html">Home</a>
+    <a class="btn" href="../students/index.html">Students</a>
+    <a class="btn" href="../ctf/index.html">CTF</a>
+    <a class="btn" href="../prospective/index.html">Prospective</a>
+    <a class="btn" href="../partners/index.html">Partners</a>
+    <a class="btn" href="mailto:ithornsburg@alamo.edu">Contact</a>
+  </nav>
+
+    <h1>How to Submit (CTF Writeups + Lab Requests)</h1>
+    <p class="muted">This page is for students who have limited or no experience with Git or GitHub.</p>
+
+    <div class="card">
+      <h2>What you can submit</h2>
+
+      <h3>CTF writeups (allowed)</h3>
+      <ul>
+        <li>How you approached the challenge (your thought process)</li>
+        <li>Steps that are reproducible</li>
+        <li>Tools/commands used (sanitized)</li>
+        <li>What you learned</li>
+      </ul>
+
+      <div class="callout">
+        <strong>Do NOT include:</strong> flags, tokens, passwords, API keys, sensitive school/client data, or anything that violates competition rules.
+      </div>
+
+      <h3>Lab requests (allowed)</h3>
+      <ul>
+        <li>Request a new lab topic</li>
+        <li>Report a bug or ask for clarification on an existing lab</li>
+        <li>Suggest a dataset (must be legal to share)</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Two ways to submit (pick one)</h2>
+      <ul>
+        <li><strong>Option A (recommended):</strong> Use the GitHub website (no installs)</li>
+        <li><strong>Option B (optional):</strong> Use Git from your computer</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Before you start</h2>
+      <ol>
+        <li>Create a GitHub account: <a href="https://github.com/signup">github.com/signup</a></li>
+        <li>Open the repo: <a href="https://github.com/cthornsburg/nlc_cyber">github.com/cthornsburg/nlc_cyber</a></li>
+        <li>Read contribution rules: <a href="https://github.com/cthornsburg/nlc_cyber/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a></li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <h2>Option A — Submitting via the GitHub website</h2>
+
+      <h3>A1) Lab request (or bug/clarification)</h3>
+      <p>Use a <strong>GitHub Issue</strong> (think of it like a ticket).</p>
+      <ol>
+        <li>Open the repo: <a href="https://github.com/cthornsburg/nlc_cyber">cthornsburg/nlc_cyber</a></li>
+        <li>Click <strong>Issues</strong></li>
+        <li>Click <strong>New issue</strong></li>
+        <li>Pick the best template (if shown): <code>new-lab</code> or <code>fix-errata</code></li>
+        <li>Fill it out and submit</li>
+      </ol>
+
+      <h3>What to include in a lab request</h3>
+      <ul>
+        <li>Skill/topic (example: “Windows event log triage”)</li>
+        <li>Difficulty level (intro/intermediate/advanced)</li>
+        <li>What you want to be able to do at the end</li>
+        <li>References/links (optional)</li>
+      </ul>
+
+      <h3 style="margin-top:14px;">A2) CTF writeup</h3>
+
+      <h3>Step 1 — Fork the repository</h3>
+      <p>A <strong>fork</strong> is your own copy of the repo on GitHub.</p>
+      <ol>
+        <li>Go to: <a href="https://github.com/cthornsburg/nlc_cyber">cthornsburg/nlc_cyber</a></li>
+        <li>Click <strong>Fork</strong> (top right)</li>
+        <li>Create the fork</li>
+      </ol>
+
+      <h3>Step 2 — Add your writeup file</h3>
+      <ol>
+        <li>In your fork, go to <code>ctf/writeups/</code> (create it if needed)</li>
+        <li>Click <strong>Add file → Create new file</strong></li>
+        <li>Name it like: <code>ctf/writeups/YYYY-MM-DD_platform_challenge-name.md</code></li>
+        <li>Paste your writeup</li>
+        <li>Commit message example: <code>Add writeup: picoCTF web challenge (sanitized)</code></li>
+        <li>Click <strong>Commit new file</strong></li>
+      </ol>
+
+      <h3>Step 3 — Open a Pull Request (PR)</h3>
+      <p>A <strong>Pull Request</strong> is how you ask to merge your changes into the main repo.</p>
+      <ol>
+        <li>In your fork, click <strong>Pull requests</strong> → <strong>New pull request</strong></li>
+        <li>Confirm base repo: <code>cthornsburg/nlc_cyber</code> and base branch: <code>master</code></li>
+        <li>Create the pull request</li>
+        <li>In the description, include: challenge name/platform/category + confirmation “No flags/secrets included”</li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <h2>Writeup template (copy/paste)</h2>
+      <pre><code># [Platform] — [Challenge Name]
+
+## Summary
+1–3 sentences: what the challenge was about.
+
+## What I tried (and why)
+- Step-by-step, with reasoning.
+
+## Solution (sanitized)
+- Commands, tools, key observations.
+- No flags, no secrets.
+
+## Lessons learned
+- What you’d do faster next time.
+- Common pitfalls.
+
+## References
+- Links to docs/posts you used.
+</code></pre>
+    </div>
+
+    <div class="card">
+      <h2>Option B — Submitting with Git (optional)</h2>
+      <p class="muted">This is not required. Use this once you’re comfortable.</p>
+      <pre><code>git --version
+
+git clone git@github.com:&lt;your-username&gt;/nlc_cyber.git
+cd nlc_cyber
+
+git checkout -b add-writeup-&lt;topic&gt;
+# add your file(s)
+
+git add ctf/writeups/your-file.md
+git commit -m "Add writeup: ..."
+git push -u origin add-writeup-&lt;topic&gt;
+</code></pre>
+    </div>
+
+    <div class="card">
+      <h2>Reference (repo version)</h2>
+      <p class="muted">Markdown copy of this guide in the repo:</p>
+      <ul>
+        <li><a href="https://github.com/cthornsburg/nlc_cyber/blob/master/resources/STUDENT_SUBMISSIONS_GUIDE.md">resources/STUDENT_SUBMISSIONS_GUIDE.md</a></li>
+      </ul>
+    </div>
+
+  </div>
+</body>
+</html>
