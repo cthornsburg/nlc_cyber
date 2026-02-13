@@ -11,6 +11,7 @@ This repo is meant to be a practical hub for:
 
 - **Hosted landing page (GitHub Pages):** https://cthornsburg.github.io/nlc_cyber/
 - **Official program page:** https://www.alamo.edu/nlc/cyberdefense
+- **NighHax (student group site):** https://nighthax.com
 - **Catalog entries:**
   - Cyber Defense (A.A.S.): https://mynlccatalog.alamo.edu/preview_program.php?catoid=286&poid=54237&returnto=23312
   - Cyber Defense (Level I Certificate): https://mynlccatalog.alamo.edu/preview_program.php?catoid=286&poid=54240
