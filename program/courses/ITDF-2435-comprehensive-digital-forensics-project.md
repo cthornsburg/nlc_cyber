@@ -12,6 +12,12 @@ A capstone-style forensics project course focused on applying digital forensics 
 ## Repo resources
 - Forensics datasets: `labs/forensics/datasets.md`
 
+## NICE-aligned sample labs (examples)
+These sample labs align to core NICE work role tasks in **Incident Response** and **Digital Forensics**.
+- **Case scoping + collection plan:** define scope, evidence sources, and collection order-of-operations for a mock incident.
+- **Intrusion artifact collection:** identify and collect intrusion artifacts from a provided dataset (logs, triage outputs), then justify what you collected.
+- **After Action Review (AAR):** write an AAR with what went well, what failed, and prioritized improvements.
+
 ## Notes
 - Use sanitized datasets and mock scenarios only.
 - Writeups should be reproducible and should not include sensitive content.

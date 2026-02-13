@@ -10,5 +10,11 @@
 - Create an allowlist policy and document exceptions.
 - Implement logging and demonstrate how to investigate a blocked vs allowed flow.
 
+## NICE-aligned sample labs (examples)
+These sample labs align to core NICE work role tasks in **Network Operations** and **Infrastructure Support**.
+- **Firewall rulebase + change control:** implement a least-privilege policy, document the request/approval, then validate outcomes in logs.
+- **VPN + access control:** configure a VPN scenario (lab-only), enforce ACLs, and validate who can reach what.
+- **Patch/upgrade drill (network devices):** simulate a network device OS update, validate services, and document rollback steps.
+
 ## Notes
 - Keep configurations sanitized. Do not publish real org IPs, VPN configs, or credentials.

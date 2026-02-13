@@ -25,6 +25,12 @@ Student-aligned workstreams (examples):
 - "90-day starter plan" remediation roadmap
 - Final readout deck (executive summary + appendix)
 
+## NICE-aligned sample labs (examples)
+These are portfolio-friendly deliverables that align to NICE work role tasks in **Defensive Cybersecurity**, **Network Operations**, **Infrastructure Support**, and **Incident Response**.
+- **Daily operations report:** a repeatable daily/weekly security report template (events, trends, actions, blockers).
+- **Incident intake + triage packet:** intake form + triage checklist + timeline log for a mock incident.
+- **Control validation:** verify a security control is working (logging, segmentation, MFA) and write a short validation memo.
+
 ## What success looks like
 - Clear documentation for every task
 - Repeatable artifacts (templates, checklists, playbooks)
