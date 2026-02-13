@@ -10,6 +10,8 @@ This repo is meant to be a practical hub for:
 ## Start here
 
 - **Hosted landing page (GitHub Pages):** https://cthornsburg.github.io/nlc_cyber/
+- **Official program page:** https://www.alamo.edu/nlc/cyberdefense
+- **Catalog entry:** https://mynlccatalog.alamo.edu/preview_program.php?catoid=286&poid=54240
 
 - Program mission: `program/mission.md`
 - Student resources: `resources/`
