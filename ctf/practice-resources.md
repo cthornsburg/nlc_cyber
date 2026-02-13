@@ -22,6 +22,8 @@ These are **free (or have a meaningful free tier)** resources that help you buil
 - Sigma rules (concepts + format): https://sigmahq.io/
 - MITRE ATT&CK (tactics/techniques): https://attack.mitre.org/
 - Zeek documentation (network visibility): https://docs.zeek.org/
+- Suricata User Guide (IDS/NSM): https://suricata.readthedocs.io/
+- Wireshark Documentation (packet analysis): https://www.wireshark.org/docs/
 - Security Onion documentation (blue team platform): https://docs.securityonion.net/
 
 ## Career-role micro-challenges (NICCS)
