@@ -1,5 +1,8 @@
 # Mission Statement — Cyber Defense (Northeast Lakeview College)
 
+## Degree tracks (catalog-aligned)
+See `program/tracks/` for course track maps and supported-course cards.
+
 The Information Technology programs of the CSTEM department at Northeast Lakeview College prepares students to enter the cyber workforce through training programs and degree offerings in Network Administration Technology and Cyber Defense. We achieve this **MISSION** using an E3 measure:
 
 **Engage** — We engage our students in active learning by creating an environment of collaborative, hands on practical projects addressing real world cyber challenges.
