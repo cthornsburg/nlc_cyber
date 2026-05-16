@@ -2,6 +2,8 @@
 
 Public resources for the **Northeast Lakeview College Cyber Defense programs**.
 
+Project map: `PROJECT_MAP.md`
+
 This repo is meant to be a practical hub for:
 - **Students** (labs, study paths, CTF onboarding)
 - **Prospective students** (what we do, what to expect)
@@ -30,6 +32,15 @@ Students are welcome to contribute improvements via pull requests:
 - CTF writeups **without** flags/secrets
 
 See: `CONTRIBUTING.md`
+
+## Participation guide
+
+Students, instructors, and community partners can contribute through issues and pull requests:
+
+- Use an **issue** for questions, broken links, confusing instructions, lab/resource ideas, or feature requests.
+- Use a **pull request** for a specific proposed change.
+- Start with `docs/participation-guide.md` if you are new to GitHub or contributing for class.
+- See `CONTRIBUTING.md` for safety rules and review expectations.
 
 ## License
 See `LICENSE`.

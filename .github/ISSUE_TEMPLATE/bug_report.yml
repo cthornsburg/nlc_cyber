@@ -1,0 +1,34 @@
+name: Bug report
+description: Report something broken or not working as documented.
+title: "[Bug]: "
+labels: ["bug", "student-friendly"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the problem clearly.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Related file, page, or command
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List safe, sanitized steps only.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I removed credentials, private data, CTF flags, and sensitive screenshots/logs.
+          required: true
